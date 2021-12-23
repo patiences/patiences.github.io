@@ -13,6 +13,7 @@ export default function Writing({ allPosts }) {
           <Header />
           {allPosts.map((post) => (
             <PostPreview
+              key={post.slug}
               title={post.title}
               date={post.date}
               slug={post.slug}

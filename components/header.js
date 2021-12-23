@@ -9,7 +9,7 @@ export default function Header() {
       <h1 className="text-6xl md:text-8xl tracking-tighter leading-tight hello">
         hi, i'm patience!
       </h1>
-      <div class="links md:text-3xl flex flex-wrap">
+      <div className="links md:text-3xl flex flex-wrap">
         <Link as="/" href="/">
           <a className={router.pathname == "/" ? "pr-8 active" : "pr-8"}>home</a>
         </Link>
