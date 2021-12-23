@@ -22,6 +22,14 @@ body {
     color: rgb(65, 199, 199);
 }
 
+.post-content a:link {
+  color: #FE6A6A;
+}
+
+.post-content a:visited {
+    color: rgb(65, 199, 199);
+}
+
 .hello {
   font-family: 'IBM Plex Mono', serif;
   font-size: 7vw !important;
