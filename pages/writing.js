@@ -1,28 +1,25 @@
 import { getAllPosts } from '../lib/api'
 import Layout from '../components/layout'
 import Container from '../components/container'
-import HeroPost from '../components/hero-post'
-import MoreStories from '../components/more-stories'
+import PostPreview from '../components/post-preview'
 import Header from '../components/header'
 
 
 export default function Writing({ allPosts }) {
-  const heroPost = allPosts[0]
-  const morePosts = allPosts.slice(1)
   return (
     <>
       <Layout>
         <Container>
           <Header />
-          {heroPost && (
-            <HeroPost
-              title={heroPost.title}
-              date={heroPost.date}
-              slug={heroPost.slug}
-              excerpt={heroPost.excerpt}
+          {allPosts.map((post) => (
+            <PostPreview
+              title={post.title}
+              date={post.date}
+              slug={post.slug}
+              excerpt={post.excerpt}
             />
-          )}
-          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+          ))}
+          
         </Container>
       </Layout>
     </>
