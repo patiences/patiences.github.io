@@ -1,1 +1,1 @@
-My personal website (2.0)
+Versions of my personal website. This site is statically generated using Next.js's Blog Starter using Markdown files as the data source. 

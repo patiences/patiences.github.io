@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #fefbd8;
+}
+
+body {
+  color: #000033;
+}
+
+.blurb a {
+  text-decoration: none !important;
+}
+
+.blurb a:link {
+  color: #FE6A6A;
+}
+
+.blurb a:visited {
+    color: rgb(65, 199, 199);
+}
+
+.hello {
+  font-family: 'IBM Plex Mono', serif;
+  font-size: 7vw !important;
+  display: inline;
+  text-decoration: none;
+}
+
+
+.hello > a:hover {
+  text-decoration: none !important;
+}
+
+.blurb {
+  font-family: 'IBM Plex Mono', serif;
+}
+
+.intro {
+  z-index: 2;
+
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  align-items: center;
+  margin: 100px auto;
+
+}
+
+.links {
+  margin: 1em 0 1.5em 0;
+  text-decoration: underline;
+}
+
+.links a {
+  font-family: 'PT Mono', monospace;
+}
+
+.links .active {
+  color: #FFC000 !important;
+}
+
+.post-title {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.post-content {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.post-content ul {
+    list-style-type: circle;
+}
