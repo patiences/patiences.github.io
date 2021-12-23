@@ -7,7 +7,7 @@ date: '2017-05-30T00:00:00.322Z'
 
 I spent the past week at the [Programming Language Implementation Summer School](https://pliss2017.github.io/) in Bertinoro, Italy. Throughout my undergrad I've avoided taking classes in the summer but when Ron told me about this one in Italy I couldn't not apply. Now that the week is over and I'm sunning it up in Croatia, I want to write a few blog posts about some stuff I learned both in and out of the classroom. This is the first of three posts. 
 
-![PLISS classroom](../public/assets/blog/pony/pliss-classroom.jpeg "PLISS classroom")
+![PLISS classroom](assets/blog/pony/pliss-classroom.jpeg "PLISS classroom")
 
 Writing concurrent programs is hard. At the heart of the challenge is handling shared data — and to that, our Intro to Computer Science professors say: put a lock on it! But programming with locks and semaphores is very difficult to get right and is torturously slow (imagine Facebook locking each of Donald Trump’s posts when someone comments). The [Pony](https://www.ponylang.org/) language, being developed at [Sophia Drossopoulou](https://wp.doc.ic.ac.uk/sd/)’s group at Imperial College London, introduces two core ideas such that, if you can get your program to compile, guarantees memory safety (among other things).
 
