@@ -9,7 +9,7 @@ export default function PostBody({ content }) {
     blocks.forEach(hljs.highlightBlock);
   }, []);
   return (
-    <div className=" mx-auto text-2xl post-content">
+    <div className=" mx-auto text-xl sm:text-2xl post-content">
       <div
         className={markdownStyles['markdown']}
         dangerouslySetInnerHTML={{ __html: content }}

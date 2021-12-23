@@ -4,7 +4,7 @@ export default function IntroBlurb() {
     return (
         <section>
             <div className="md:grid md:grid-cols-1 md:gap-x-16 lg:gap-x-8 mb-20 md:mb-28">
-                <div className="mb-4 md:mb-0 text-3xl blurb">
+                <div className="mb-4 md:mb-0 text-xl sm:text-3xl blurb">
                     <div>
                         I'm a senior software engineer at <a href={BRITECORE_URL}>BriteCore</a> building a business rule management system.
                         Prior to this, I was helping build an integration platform for connecting enterprise applications at <a href={TASKTOP_URL}>Tasktop</a>.
