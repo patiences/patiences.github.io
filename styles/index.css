@@ -32,7 +32,6 @@ body {
 
 .hello {
   font-family: 'IBM Plex Mono', serif;
-  font-size: 7vw !important;
   display: inline;
   text-decoration: none;
 }

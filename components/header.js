@@ -6,7 +6,7 @@ export default function Header() {
   const router = useRouter();
   return (
     <section className="flex-col md:flex-row items-center">
-      <h1 className="text-6xl md:text-8xl tracking-tighter leading-tight hello">
+      <h1 className="text-7xl md:text-8xl tracking-tighter leading-tight hello">
         hi, i'm patience!
       </h1>
       <div className="links md:text-3xl flex flex-wrap">
