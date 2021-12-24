@@ -76,3 +76,7 @@ body {
 .post-content ul {
     list-style-type: circle;
 }
+
+.post-content ol {
+    list-style: auto;
+}
