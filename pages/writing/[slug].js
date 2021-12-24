@@ -27,12 +27,13 @@ export default function Post({ post, morePosts, preview }) {
             <article className="mb-32">
               <Head>
                 <title>
-                  {post.title} | Next.js Blog Example with {CMS_NAME}
+                  {post.title}
                 </title>
               </Head>
               <PostHeader
                 title={post.title}
-                date={post.date}              />
+                date={post.date}  
+                tags={post.tags}            />
               <PostBody content={post.content} />
             </article>
           </>
@@ -46,6 +47,7 @@ export async function getStaticProps({ params }) {
   const post = getPostBySlug(params.slug, [
     'title',
     'date',
+    'tags',
     'slug',
     'content',
   ])

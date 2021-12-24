@@ -2,6 +2,7 @@
 title: First Foray into Open Source
 excerpt: or, How to Contribute to Open Source for the First Time...
 date: '2018-03-14T00:00:00.322Z'
+tags: [open source]
 ---
 
 People have been telling me to contribute to open source for years: in the same breath as they're recommending building a personal website (check), working on personal projects (check) -- you know, all the stuff you're supposed to do as a fresh-faced cs student looking for a development job. For me, open source was the most intimidating of the three. Personal projects hide spaghetti code, files that don't compile, a tumultuous git history... things that we students maybe shouldn't advertise, in hindsight.

@@ -33,6 +33,7 @@ export async function getStaticProps() {
     'date',
     'slug',
     'excerpt',
+    'tags'
   ])
 
   return {

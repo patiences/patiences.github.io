@@ -2,6 +2,7 @@
 title: VOC Optimization - Module Caching (Google Summer of Code)
 excerpt: Python code lives in Python modules (that is, a `.py` file). Thinking about the module as an object, it knows about all the constants, functions, and classes that are defined in the module itself. Every time one of those definitions is referenced, either for looking up or storing into, the module is used to resolve the definition...
 date: '2018-07-17T00:00:00.322Z'
+tags: [python, performance optimization, open source]
 ---
 
 I've done some cool stuff this past month. Here's an optimization I've been working on:
