@@ -14,7 +14,7 @@ export default function IntroBlurb() {
                         I'm from Vancouver, Canada, but now I live in Caprino Veronese, Italy.
                     </div>
                     <br/>
-                    <div>Wanna chat about my work, or share <a target="_blank" href={RECIPE_URL}>an awesome recipe</a>? Please drop me a line via any of my online profiles.</div>
+                    <div>Wanna chat about my work? I'd love to hear from you, please drop me a line via any of my online profiles.</div>
                 </div>
             </div>
         </section>
