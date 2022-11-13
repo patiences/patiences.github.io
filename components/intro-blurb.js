@@ -7,6 +7,9 @@ export default function IntroBlurb() {
                 <div className="mb-4 md:mb-0 text-xl sm:text-3xl blurb">
                     <div>
                         I'm a senior software engineer at <a href={KRAKEN_TECH_URL}>Octopus Energy (the Kraken Technologies arm)</a>, building and leading a team in developing our global energy technology platform, Kraken, for the Italian energy market. (I'm hiring!!)
+                    </div>
+                    <br/>
+                    <div>
 			Prior to this, I was building a business rule management system at <a href={BRITECORE_URL}>BriteCore</a>.
                         I have a BSc in Computer Science from the University of British Columbia.
                         I'm from Vancouver, Canada, but now I live in Caprino Veronese, Italy.
