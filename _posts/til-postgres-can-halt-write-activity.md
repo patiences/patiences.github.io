@@ -42,7 +42,7 @@ Postgres stops accepting write commands once there are < 1 million XIDs left, wh
 
 ### Sources
 
-[Postgres documentation on transactions](https://www.postgresql.org/docs/current/transaction-id.html)
-[Postgres documentation on vacuuming](https://www.postgresql.org/docs/current/routine-vacuuming.html#ROUTINE-VACUUMING)
-[Incident report from 2015 from Sentry](https://blog.sentry.io/transaction-id-wraparound-in-postgres/)
-[Article on Postgres & MVCC from Heroku](https://devcenter.heroku.com/articles/postgresql-concurrency)
+[Postgres documentation on transactions](https://www.postgresql.org/docs/current/transaction-id.html)\
+[Postgres documentation on vacuuming](https://www.postgresql.org/docs/current/routine-vacuuming.html#ROUTINE-VACUUMING)\
+[Incident report from 2015 from Sentry](https://blog.sentry.io/transaction-id-wraparound-in-postgres/)\
+[Article on Postgres & MVCC from Heroku](https://devcenter.heroku.com/articles/postgresql-concurrency)\
