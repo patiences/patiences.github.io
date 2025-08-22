@@ -6,7 +6,7 @@ export default function IntroBlurb() {
             <div className="md:grid md:grid-cols-1 md:gap-x-16 lg:gap-x-8 mb-20 md:mb-28">
                 <div className="mb-4 md:mb-0 text-xl sm:text-3xl blurb">
                     <div>
-                        I'm a senior software engineer at <a href={KRAKEN_TECH_URL}>Octopus Energy (the Kraken Technologies arm)</a>, building and leading a team in developing our global energy technology platform, Kraken, for the Italian energy market. (I'm hiring!!)
+                        I'm a lead software engineer at <a href={KRAKEN_TECH_URL}>Kraken Tech</a>, working on our global energy technology platform towards a more sustainable energy future.
                     </div>
                     <br/>
                     <div>
