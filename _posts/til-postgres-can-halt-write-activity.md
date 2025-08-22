@@ -1,6 +1,6 @@
 ---
 title: 'TIL: Postgres can halt write activity'
-excerpt: … if it runs out of transaction identifiers.
+excerpt: if it runs out of transaction identifiers.
 date: '2025-05-21T00:00:00+02:00'
 tags: [postgres, databases]
 ---
