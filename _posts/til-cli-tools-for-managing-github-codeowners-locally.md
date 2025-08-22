@@ -1,6 +1,6 @@
 ---
 title: 'TIL: CLI tools for managing Github codeowners locally'
-excerpt: Two useful open source tools for validating CODEOWNER changes super quickly.
+excerpt: Two useful open source tools for validating CODEOWNERS file changes super quickly.
 date: '2025-05-29T00:00:00+02:00'
 tags: [tools, github, open source]
 ---
