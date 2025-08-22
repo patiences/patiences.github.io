@@ -22,12 +22,6 @@ export default function Header() {
         <Link href="http://linkedin.com/in/patienceshyu">
           <a className="pr-8">linkedin</a>
         </Link>
-        <Link href="https://medium.com/@patiences">
-          <a className="pr-8">medium</a>
-        </Link>
-        <Link href="https://twitter.com/patienceshyu">
-          <a className="pr-8">twitter</a>
-        </Link>
         <Link href="mailto:patienceshyu@gmail.com">
           <a className="pr-8">email</a>
         </Link>
