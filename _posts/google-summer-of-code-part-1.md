@@ -1,5 +1,5 @@
 ---
-title: VOC Optimization - Primitive Object Preallocation (Google Summer of Code)
+title: VOC optimization - primitive object preallocation (Google Summer of Code)
 excerpt: Everything in Python is an Object. This means that even small programs can create tons of Objects, including integers, booleans, and strings...
 date: '2018-06-19T00:30:00.322Z'
 tags: [python, performance optimization, open source]

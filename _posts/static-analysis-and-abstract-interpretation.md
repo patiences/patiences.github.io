@@ -1,5 +1,5 @@
 ---
-title: Static Analysis and Abstract Interpretation
+title: Static analysis and abstract interpretation
 excerpt: Abstract interpretation has a reputation for being inaccessible. So I was very excited about two of the talks which promised gentle introductions to abstract interpretation, from Francesco Logozzo at Facebook and Matt Might at the University of Utah...
 date: '2017-06-01T00:00:00.322Z'
 tags: [programming languages, program analysis, abstract interpretation]

@@ -1,5 +1,5 @@
 ---
-title: 5 Ways Working Remotely Made Me a Better Engineer
+title: 5 ways working remotely made me a better engineer
 excerpt: I've been working 100% remotely since 2018. Here are 5 things that have contributed to my growth as an engineer. 
 date: '2021-12-23T00:00:00.322Z'
 tags: [remote work]

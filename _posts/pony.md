@@ -1,5 +1,5 @@
 ---
-title: Worry-free Concurrent Programming in Pony
+title: Worry-free concurrent programming in Pony
 excerpt: The Pony language, being developed at Sophia Drossopoulou’s group at Imperial College London, introduces two core ideas such that, if you can get your program to compile, guarantees memory safety (among other things).
 date: '2017-05-30T00:00:00.322Z'
 tags: [pony, programming languages]

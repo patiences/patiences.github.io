@@ -1,5 +1,5 @@
 ---
-title: First Foray into Open Source
+title: First foray into open source
 excerpt: or, How to Contribute to Open Source for the First Time...
 date: '2018-03-14T00:00:00.322Z'
 tags: [open source]
